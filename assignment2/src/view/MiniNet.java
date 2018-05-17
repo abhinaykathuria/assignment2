@@ -46,6 +46,13 @@ public class MiniNet extends JFrame {
 					MiniNet lMiniNet=new MiniNet();
 					File tmpDir = new File("sample.db");
 					boolean checkDB=tmpDir.exists();
+					File tmpFile = new File("People.txt");
+					boolean checktmpFile=tmpFile.exists();
+					if(checktmpFile==true&&checkDB==true)
+					{
+						tmpDir.delete();
+						checkDB=false;
+					}
 					if(checkDB==false)
 					{
 					logger.debug("DataBase Does not exist");

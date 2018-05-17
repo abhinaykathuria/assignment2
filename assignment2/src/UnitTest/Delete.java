@@ -20,6 +20,9 @@ public class Delete {
 		lDeleteUserController.deleteUser("Ana M");
 		lDeleteUserController.deleteUser("John M");
 		lDeleteUserController.deleteUser("Natasha M");
+		lDeleteUserController.deleteUser("Ana A");
+		lDeleteUserController.deleteUser("John A");
+		lDeleteUserController.deleteUser("Natasha A");
 	}
 
 }

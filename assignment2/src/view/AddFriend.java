@@ -43,7 +43,7 @@ public class AddFriend extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					logger.debug("In AddFriend- main function");
+					logger.debug("In Whatever it is ");
 					AddFriend frame = new AddFriend();
 					frame.setVisible(true);
 				} catch (Exception e) {
